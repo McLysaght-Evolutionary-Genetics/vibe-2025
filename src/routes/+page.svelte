@@ -12,7 +12,7 @@
   import SheetTrigger from "@/components/ui/sheet/sheet-trigger.svelte";
   import { MenuIcon } from "@lucide/svelte";
 
-  const logoAccentColour = "green-700";
+  const logoAccentColour = "slate-700";
 
   const links = [
     {
@@ -42,11 +42,7 @@
   <div class="container mx-auto">
     <nav class="flex items-center justify-between">
       <a href="/" class="flex items-center gap-2 font-bold"
-        ><img
-          src="https://v0-vibe-conference-design.vercel.app/placeholder.svg?height=32&width=32"
-          class="max-h-8"
-          alt="VIBE logo"
-        /><span>VIBE <span class={"text-" + logoAccentColour}>2025</span></span></a
+        ><span>VIBE <span class="text-purple-700">2025</span></span></a
       >
       <NavigationMenu class="hidden lg:block">
         <NavigationMenuList>
@@ -71,12 +67,7 @@
         <SheetContent class="max-h-screen overflow-auto">
           <SheetHeader>
             <SheetTitle>
-              <a href="/" class="flex items-center gap-2"
-                ><img
-                  src="https://v0-vibe-conference-design.vercel.app/placeholder.svg?height=32&width=32"
-                  class="max-h-8"
-                  alt="VIBE logo"
-                /><span>VIBE <span class={"text-" + logoAccentColour}>2025</span></span></a
+              <a href="/" class="flex items-center gap-2"><span>VIBE <span class="text-purple-700">2025</span></span></a
               >
             </SheetTitle>
           </SheetHeader>
@@ -111,25 +102,37 @@
       <div>
         <div class="flex justify-center">
           <h1 class="mb-6 text-2xl font-bold tracking-tight text-pretty lg:text-5xl">
-            VIBE <span class="text-green-700">2025</span>
+            VIBE <span class="text-purple-700">2025</span>
           </h1>
         </div>
         <p class="mx-auto max-w-3xl text-muted-foreground lg:text-xl">
-          Irish computational biology and genomics symposium
+          2025 Conference of the Virtual Institute of Bioinformatics and Evolution
         </p>
       </div>
       <div class="mt-6 flex justify-center gap-3">
-        <Button class="shadow-sm transition-shadow hover:shadow">Register Now</Button>
-        <Button variant="outline" class="group">View Program</Button>
+        <Button
+          class="shadow-sm transition-shadow hover:shadow"
+          href="https://app.oxfordabstracts.com/register/event/76071"
+          target="_blank">Register Now</Button
+        >
+        <Button
+          variant="outline"
+          class="group"
+          href="https://app.oxfordabstracts.com/stages/79798/submitter"
+          target="_blank">Submit an Abstract</Button
+        >
       </div>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="container mt-30">
-    <div class="flex justify-center">
-      <p>some content idk</p>
+  <div class="container mt-30 justify-center">
+    <div class="flex justify-center text-center">
+      <p>
+        VIBE2025, hosted at <b>Trinity College Dublin</b>, takes place on <b>Monday 8th December 2025</b>, with an ECR
+        event on 9th December 2025.
+      </p>
     </div>
   </div>
 </section>
