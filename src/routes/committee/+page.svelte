@@ -1,4 +1,8 @@
-<script>
+<script lang="ts">
+  import type { PageProps } from "./$types";
+
+  let { data }: PageProps = $props();
+
   import Button from "@/components/ui/button/button.svelte";
   import NavigationMenuItem from "@/components/ui/navigation-menu/navigation-menu-item.svelte";
   import NavigationMenuLink from "@/components/ui/navigation-menu/navigation-menu-link.svelte";
@@ -38,6 +42,13 @@
       href: "./committee",
     },
   ];
+
+  let currentPath = "";
+  if (typeof window !== "undefined") {
+    currentPath = window.location.pathname;
+  }
+
+  const isActive = (href: string) => (href === currentPath ? "text-purple-700 font-bold" : "");
 </script>
 
 <section class="py-4">
@@ -50,7 +61,7 @@
         <NavigationMenuList>
           {#each links as link}
             <NavigationMenuItem>
-              <NavigationMenuLink href={link.href} class={navigationMenuTriggerStyle()}>
+              <NavigationMenuLink href={link.href} class={`${navigationMenuTriggerStyle()} ${isActive(link.href)}`}>
                 {link.title}
               </NavigationMenuLink>
             </NavigationMenuItem>
@@ -107,27 +118,27 @@
   <div class="relative z-10 container mx-auto">
     <div class="mx-auto flex max-w-5xl flex-col items-center">
       <div>
-        <div class="flex justify-center">
-          <img src="./vibe25logo.png" alt="VIBE 2025 logo" class="mb-4" />
-        </div>
-        <p class="mx-auto mb-4 max-w-3xl text-center lg:text-xl">VIBE 2025 - 25th Anniversary</p>
-        <p class="mx-auto max-w-3xl text-center text-muted-foreground lg:text-xl">
-          Conference Monday 8th December, ECR Panels Tuesday 9th December 2025
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-2xl"><b>VIBE 2025 Organising Committee</b></p>
+        <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Dr Máire Ní Leathlobhair</b></p>
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">Chair</p>
+        <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Dr Elle Loughran</b></p>
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">Scientific Program Chair</p>
+        <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Sadbh Carrick</b></p>
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">Logistics & Venue Coordinator</p>
+        <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Róisín Long</b></p>
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">Communications & Publicity Officer</p>
+        <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Corey Alwell, Catherine Butt</b></p>
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">
+          Registration & Delegate Support, Abstract Coordinators
         </p>
-        <p class="mx-auto mb-2 max-w-3xl text-center text-muted-foreground lg:text-xl">Trinity College Dublin</p>
-      </div>
-      <div class="mt-6 flex justify-center gap-3">
-        <Button
-          class="shadow-sm transition-shadow hover:shadow"
-          href="https://app.oxfordabstracts.com/register/event/76071"
-          target="_blank">Register Now</Button
-        >
-        <Button
-          variant="outline"
-          class="group"
-          href="https://app.oxfordabstracts.com/stages/79798/submitter"
-          target="_blank">Submit an Abstract</Button
-        >
+        <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Lukasz Niezabitowski</b></p>
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">Tech & AV Coordinator</p>
+        <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Donia Arafa, Thomas Gomes</b></p>
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">
+          EDI & Accessibility Leads, Social & Networking Coordinators
+        </p>
+        <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Dr Laetitia Chauve, Alex Siekmann</b></p>
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">OCMs</p>
       </div>
     </div>
   </div>

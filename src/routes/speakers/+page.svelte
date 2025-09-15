@@ -1,4 +1,8 @@
-<script>
+<script lang="ts">
+  import type { PageProps } from "./$types";
+
+  let { data }: PageProps = $props();
+
   import Button from "@/components/ui/button/button.svelte";
   import NavigationMenuItem from "@/components/ui/navigation-menu/navigation-menu-item.svelte";
   import NavigationMenuLink from "@/components/ui/navigation-menu/navigation-menu-link.svelte";
@@ -38,6 +42,13 @@
       href: "./committee",
     },
   ];
+
+  let currentPath = "";
+  if (typeof window !== "undefined") {
+    currentPath = window.location.pathname;
+  }
+
+  const isActive = (href: string) => (href === currentPath ? "text-purple-700 font-bold" : "");
 </script>
 
 <section class="py-4">
@@ -50,7 +61,7 @@
         <NavigationMenuList>
           {#each links as link}
             <NavigationMenuItem>
-              <NavigationMenuLink href={link.href} class={navigationMenuTriggerStyle()}>
+              <NavigationMenuLink href={link.href} class={`${navigationMenuTriggerStyle()} ${isActive(link.href)}`}>
                 {link.title}
               </NavigationMenuLink>
             </NavigationMenuItem>
@@ -107,27 +118,8 @@
   <div class="relative z-10 container mx-auto">
     <div class="mx-auto flex max-w-5xl flex-col items-center">
       <div>
-        <div class="flex justify-center">
-          <img src="./vibe25logo.png" alt="VIBE 2025 logo" class="mb-4" />
-        </div>
-        <p class="mx-auto mb-4 max-w-3xl text-center lg:text-xl">VIBE 2025 - 25th Anniversary</p>
-        <p class="mx-auto max-w-3xl text-center text-muted-foreground lg:text-xl">
-          Conference Monday 8th December, ECR Panels Tuesday 9th December 2025
-        </p>
-        <p class="mx-auto mb-2 max-w-3xl text-center text-muted-foreground lg:text-xl">Trinity College Dublin</p>
-      </div>
-      <div class="mt-6 flex justify-center gap-3">
-        <Button
-          class="shadow-sm transition-shadow hover:shadow"
-          href="https://app.oxfordabstracts.com/register/event/76071"
-          target="_blank">Register Now</Button
-        >
-        <Button
-          variant="outline"
-          class="group"
-          href="https://app.oxfordabstracts.com/stages/79798/submitter"
-          target="_blank">Submit an Abstract</Button
-        >
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-2xl"><b>Keynote Speakers</b></p>
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">To be announced soon!</p>
       </div>
     </div>
   </div>

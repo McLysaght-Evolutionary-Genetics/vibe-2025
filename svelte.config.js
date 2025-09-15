@@ -22,6 +22,9 @@ const config = {
     alias: {
       "@/*": "./src/lib",
     },
+    paths: {
+      base: '/vibe', // <-- your subdirectory
+    },
   },
 };
 
