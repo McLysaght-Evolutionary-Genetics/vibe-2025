@@ -133,9 +133,9 @@
           > in 2024 hosted by Pilib Ó Broin.
         </p>
         <p class="mx-auto mb-6 max-w-5xl text-justify lg:text-xl">
-          The <b>2025 conference</b> will taking place in <b>Trinity College Dublin</b>, hosted by Máire Ní
-          Leathlobhair. The main session will take place on <b>Monday, 8th December 2025</b> followed by a half-day ECR
-          event on <b>Tuesday, 9th December 2025</b>.
+          The <b>2025 conference</b> will take place in <b>Trinity College Dublin</b>, hosted by Máire Ní Leathlobhair.
+          The main session will take place on <b>Monday, 8th December 2025</b> followed by a half-day ECR event on
+          <b>Tuesday, 9th December 2025</b>.
         </p>
       </div>
     </div>
