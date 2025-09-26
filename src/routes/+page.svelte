@@ -15,27 +15,27 @@
   const links = [
     {
       title: "About",
-      href: "./about",
+      href: "./about.html",
     },
     {
       title: "Speakers",
-      href: "./speakers",
+      href: "./speakers.html",
     },
     {
       title: "Program",
-      href: "./program",
+      href: "./program.html",
     },
     {
       title: "Important Dates",
-      href: "./dates",
+      href: "./dates.html",
     },
     {
       title: "Venue",
-      href: "./venue",
+      href: "./venue.html",
     },
     {
       title: "Organising Committee",
-      href: "./committee",
+      href: "./committee.html",
     },
   ];
 </script>
