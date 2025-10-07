@@ -172,17 +172,17 @@
             G4 Group Leader, Evolutionary Genomics Group, Hellenic Pasteur Institute
           </p>
           <p class="mt-4 mb-4 text-justify text-base text-gray-700">
-            I am a computational biologist specialized in evolutionary genomics. I have a PhD from Sorbonne University
-            in Paris, France and I have worked as a postdoctoral researcher in Ireland, Germany and Greece. My main goal
-            throughout my career has been to understand how and why novel genes originate during evolution and my
-            research has helped elucidate the mechanism of de novo gene birth. Since October 2024, I have been a G4
-            group leader at the Hellenic Pasteur Institute, at the head of a multidisciplinary team. Our group continues
-            to investigate the processes generating genetic novelty across different lineages but we also focus on
-            antimicrobial peptides, an important component of the natural defense of all organisms against pathogens. By
-            detecting them and studying their evolutionary dynamics at the scale of all animals, we aim to ultimately be
-            able to harness them as alternative antibiotics. We also study the origins and evolution of novel
-            ‘microproteins’ in bacteria to understand how they may acquire functions related to antibiotic resistance
-            and antimicrobial activity.
+            Nikolaos Vakirlis is a computational biologist specialized in evolutionary genomics. He has a PhD from
+            Sorbonne University in Paris, France and has worked as a postdoctoral researcher in Ireland, Germany and
+            Greece. His main goal throughout his career has been to understand how and why novel genes originate during
+            evolution and his research has helped elucidate the mechanism of de novo gene birth. Since October 2024, Dr.
+            Vakirlis has been a G4 group leader at the Hellenic Pasteur Institute, at the head of a multidisciplinary
+            team. His group continues to investigate the processes generating genetic novelty across different lineages
+            but they also focus on antimicrobial peptides, an important component of the natural defense of all
+            organisms against pathogens. By detecting them and studying their evolutionary dynamics at the scale of all
+            animals, Dr. Vakirlis's group aim to ultimately be able to harness them as alternative antibiotics. His
+            group also studies the origins and evolution of novel ‘microproteins’ in bacteria to understand how they may
+            acquire functions related to antibiotic resistance and antimicrobial activity.
           </p>
           <p>
             <Button variant="outline" size="icon" href="https://vakirlislab.com/" target="_blank">

@@ -120,8 +120,27 @@
       <div>
         <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-2xl"><b>Venue</b></p>
         <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">
-          VIBE 2025 will take place at <b>Trinity College Dublin</b>. Directions to exact building(s) will be shared
-          soon.
+          VIBE 2025 will take place at <b>Trinity College Dublin</b>, in the
+          <b>Smurfit Institute of Genetics</b> and <b>Hamilton Building</b>. Exact room locations will be included on
+          the timetable. The evening social event will take place in the <b>Pavillion Bar</b>. These locations are
+          circled on the map below. The closest gates to these locations are <b>Lincoln Place gate</b> and the
+          <b>Science Gallery gate</b>. Front Gate and Nassau Street gate are a 5-10 minute walk from these buildings.
+          These entrances are marked with stars on the map. A pdf of the map is available
+          <a href="./tcd-campus.pdf" target="_blank"><u>here</u></a>.
+        </p>
+        <div class="flex justify-center">
+          <img src="./tcd-campus.png" alt="VIBE 2025 logo" class="mb-4" />
+        </div>
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">
+          College maps and directions to campus are available <a href="https://www.tcd.ie/Maps/" target="_blank"
+            ><u>here</u></a
+          >. The TCD Sense map, which provides information about the sensory environments of locations across Trinity,
+          and information on physical access, is available
+          <a href="https://tcdsensemap.ie/" target="_blank"><u>here</u></a>.
+        </p>
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">
+          A <b>private room</b> will be available in the Smurfit Institute of Genetics for those who need it, for example
+          for breastfeeding or prayer.
         </p>
       </div>
     </div>
