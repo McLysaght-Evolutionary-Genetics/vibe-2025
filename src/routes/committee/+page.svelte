@@ -133,7 +133,7 @@
         </p>
         <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Lukasz Niezabitowski</b></p>
         <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">Tech & AV Coordinator</p>
-        <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Donia Arafa, Thomas Gomes</b></p>
+        <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Dr Donia Arafa, Thomas Gomes</b></p>
         <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">
           EDI & Accessibility Leads, Social & Networking Coordinators
         </p>
