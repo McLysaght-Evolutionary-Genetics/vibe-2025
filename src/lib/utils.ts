@@ -11,3 +11,30 @@ export type WithoutChild<T> = T extends { child?: any } ? Omit<T, "child"> : T;
 export type WithoutChildren<T> = T extends { children?: any } ? Omit<T, "children"> : T;
 export type WithoutChildrenOrChild<T> = WithoutChildren<WithoutChild<T>>;
 export type WithElementRef<T, U extends HTMLElement = HTMLElement> = T & { ref?: U | null };
+
+export const links = [
+  {
+    title: "About",
+    href: "./about",
+  },
+  {
+    title: "Speakers",
+    href: "./speakers",
+  },
+  {
+    title: "Program",
+    href: "./program",
+  },
+  {
+    title: "Important Dates",
+    href: "./dates",
+  },
+  {
+    title: "Venue",
+    href: "./venue",
+  },
+  {
+    title: "Organising Committee",
+    href: "./committee",
+  },
+];

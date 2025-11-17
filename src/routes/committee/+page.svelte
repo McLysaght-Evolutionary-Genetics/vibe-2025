@@ -14,34 +14,8 @@
   import SheetHeader from "@/components/ui/sheet/sheet-header.svelte";
   import SheetTitle from "@/components/ui/sheet/sheet-title.svelte";
   import SheetTrigger from "@/components/ui/sheet/sheet-trigger.svelte";
+  import { links } from "@/utils";
   import { LinkedinIcon, Mail, MenuIcon } from "@lucide/svelte";
-
-  const links = [
-    {
-      title: "About",
-      href: "./about.html",
-    },
-    {
-      title: "Speakers",
-      href: "./speakers.html",
-    },
-    {
-      title: "Program",
-      href: "./program.html",
-    },
-    {
-      title: "Important Dates",
-      href: "./dates.html",
-    },
-    {
-      title: "Venue",
-      href: "./venue.html",
-    },
-    {
-      title: "Organising Committee",
-      href: "./committee.html",
-    },
-  ];
 
   let currentPath = "";
   if (typeof window !== "undefined") {
