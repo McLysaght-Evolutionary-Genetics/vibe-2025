@@ -408,7 +408,7 @@
         </NavigationMenuList>
       </NavigationMenu>
       <div class="hidden items-center gap-4 lg:flex">
-        <Button variant="default" href="https://app.oxfordabstracts.com/register/event/76071" target="_blank"
+        <Button variant="default" disabled href="https://app.oxfordabstracts.com/register/event/76071" target="_blank"
           >Register</Button
         >
       </div>
@@ -435,8 +435,11 @@
               {/each}
             </div>
             <div class="mt-6 flex flex-col gap-4">
-              <Button variant="default" href="https://app.oxfordabstracts.com/register/event/76071" target="_blank"
-                >Register</Button
+              <Button
+                variant="default"
+                disabled
+                href="https://app.oxfordabstracts.com/register/event/76071"
+                target="_blank">Register</Button
               >
             </div>
           </div>
@@ -468,11 +471,13 @@
       </div>
       <div class="mt-6 flex justify-center gap-3">
         <Button
+          disabled
           class="shadow-sm transition-shadow hover:shadow"
           href="https://app.oxfordabstracts.com/register/event/76071"
           target="_blank">Register Now</Button
         >
         <Button
+          disabled
           variant="outline"
           class="group"
           href="https://app.oxfordabstracts.com/stages/79798/submitter"
