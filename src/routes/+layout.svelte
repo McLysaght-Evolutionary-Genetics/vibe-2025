@@ -1,5 +1,5 @@
 <script lang="ts">
-  import favicon from "$lib/assets/favicon.svg";
+  import favicon from "$lib/assets/favicon.png";
   import "../app.css";
 
   let { children } = $props();
@@ -7,6 +7,7 @@
 
 <svelte:head>
   <link rel="icon" href={favicon} />
+  <title>Virtual Institute of Bioinformatics and Evolution</title>
 </svelte:head>
 
 {@render children?.()}

@@ -95,12 +95,12 @@
         <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-2xl"><b>VIBE 2025 Organising Committee</b></p>
         <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Dr Máire Ní Leathlobhair</b></p>
         <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">Chair</p>
+        <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Róisín Long</b></p>
+        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">Deputy Chair</p>
         <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Dr Elle Loughran</b></p>
         <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">Scientific Program Chair</p>
         <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Sadbh Carrick</b></p>
         <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">Logistics & Venue Coordinator</p>
-        <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Róisín Long</b></p>
-        <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">Communications & Publicity Officer</p>
         <p class="mx-auto mb-1 max-w-5xl text-justify lg:text-xl"><b>Corey Alwell, Catherine Butt</b></p>
         <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">
           Registration & Delegate Support, Abstract Coordinators
