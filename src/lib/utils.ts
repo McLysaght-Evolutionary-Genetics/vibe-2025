@@ -15,26 +15,26 @@ export type WithElementRef<T, U extends HTMLElement = HTMLElement> = T & { ref?:
 export const links = [
   {
     title: "About",
-    href: "./about",
+    href: "/vibe/about",
   },
   {
     title: "Speakers",
-    href: "./speakers",
+    href: "/vibe/speakers",
   },
   {
     title: "Conference Program",
-    href: "./program-conference",
+    href: "/vibe/program-conference",
   },
   {
     title: "ECR Meeting Program",
-    href: "./program-ecr",
+    href: "/vibe/program-ecr",
   },
   {
     title: "Venue",
-    href: "./venue",
+    href: "/vibe/venue",
   },
   {
     title: "Organising Committee",
-    href: "./committee",
+    href: "/vibe/committee",
   },
 ];

@@ -23,7 +23,7 @@ const config = {
       "@/*": "./src/lib",
     },
     paths: {
-      base: '/vibe', // <-- your subdirectory
+      base: "/vibe", // <-- your subdirectory
     },
   },
 };
