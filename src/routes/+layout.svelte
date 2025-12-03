@@ -23,7 +23,7 @@
   <title>Virtual Institute of Bioinformatics and Evolution</title>
 </svelte:head>
 
-<section class="py-4">
+<section class="px-3 py-4">
   <div class="container mx-auto">
     <nav class="flex items-center justify-between">
       <a href="./" class="flex items-center gap-2 font-bold"
@@ -84,7 +84,7 @@
 
 {@render children?.()}
 
-<section class="pb-16">
+<section class="px-3 pb-16">
   <div class="container mx-auto">
     <footer>
       <div

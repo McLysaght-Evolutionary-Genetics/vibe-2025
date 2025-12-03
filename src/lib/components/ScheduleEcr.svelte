@@ -70,8 +70,8 @@
         },
         {
           person: "Dr Eppie Jones",
-          position: "Interim National Bioinformatics Director",
-          affiliation: "HSE",
+          position: "Bioinformatician",
+          affiliation: "St James's Hospital, Dublin",
           link: "https://www.linkedin.com/in/eppie-jones-239889133/",
         },
         {
@@ -106,7 +106,7 @@
     {#each ecrSchedule as item}
       {#if item.kind === "single"}
         <div class="mt-2 flex flex-col-reverse justify-between bg-fuchsia-50 lg:flex-row xl:mx-40">
-          <div class="ml-2 w-full lg:w-100">
+          <div class="mx-2 lg:w-120">
             <p>
               {item.start}{item.end == null || item.end.length === 0 ? "" : "-"}{item.end}
               {#if item.location}
@@ -114,7 +114,7 @@
               {/if}
             </p>
           </div>
-          <div class="ml-2 w-100 w-full lg:w-100">
+          <div class="mx-2 lg:w-100">
             <p class="font-bold">{item.title}</p>
           </div>
         </div>
@@ -122,7 +122,7 @@
       {#if item.kind === "session"}
         <br />
         <div class="mt-2 flex flex-col-reverse justify-between lg:flex-row xl:mx-40">
-          <div class="ml-2 hidden w-100 lg:block">
+          <div class="mx-2 hidden lg:block">
             <p>
               {item.start}-{item.end}
               {#if item.location}
@@ -130,14 +130,14 @@
               {/if}
             </p>
           </div>
-          <div class="ml-2 w-100 rounded-md">
+          <div class="mx-2 rounded-md lg:w-100">
             <p class="mb-1 font-bold">{item.title}</p>
             <div class="mb-2 h-1 w-8/10 bg-fuchsia-400"></div>
             <p>Opening talk</p>
             <p class="text-muted-foreground">{item.person} | {item.time}</p>
             <br />
             {#each item.discussion as panel}
-              <div class="flex w-100 justify-start">
+              <div class="flex justify-start">
                 <div>
                   <a
                     class="focus:outline-0"

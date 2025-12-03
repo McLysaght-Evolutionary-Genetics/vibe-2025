@@ -10,7 +10,7 @@
   const isActive = (href: string) => (href === currentPath ? "text-purple-700 font-bold" : "");
 </script>
 
-<section class="relative overflow-hidden pt-20 pb-4">
+<section class="relative overflow-hidden px-2 pt-20 pb-4">
   <div class="relative z-10 container mx-auto">
     <div class="mx-auto flex max-w-5xl flex-col items-center">
       <div>
