@@ -1,3 +1,4 @@
+import { dev } from "$app/environment";
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -12,29 +13,31 @@ export type WithoutChildren<T> = T extends { children?: any } ? Omit<T, "childre
 export type WithoutChildrenOrChild<T> = WithoutChildren<WithoutChild<T>>;
 export type WithElementRef<T, U extends HTMLElement = HTMLElement> = T & { ref?: U | null };
 
+const ext = dev ? "" : ".html";
+
 export const links = [
   {
     title: "About",
-    href: "./about",
+    href: "./about" + ext,
   },
   {
     title: "Speakers",
-    href: "./speakers",
+    href: "./speakers" + ext,
   },
   {
     title: "Conference Program",
-    href: "./program-conference",
+    href: "./program-conference" + ext,
   },
   {
     title: "ECR Meeting Program",
-    href: "./program-ecr",
+    href: "./program-ecr" + ext,
   },
   {
     title: "Venue",
-    href: "./venue",
+    href: "./venue" + ext,
   },
   {
     title: "Organising Committee",
-    href: "./committee",
+    href: "./committee" + ext,
   },
 ];
