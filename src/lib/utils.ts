@@ -22,12 +22,12 @@ export const links = [
     href: "./speakers",
   },
   {
-    title: "Program",
-    href: "./program",
+    title: "Conference Program",
+    href: "./program-conference",
   },
   {
-    title: "Important Dates",
-    href: "./dates",
+    title: "ECR Meeting Program",
+    href: "./program-ecr",
   },
   {
     title: "Venue",

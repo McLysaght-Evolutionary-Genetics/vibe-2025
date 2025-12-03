@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Map from "@/components/Map.svelte";
+  import ScheduleConference from "@/components/ScheduleConference.svelte";
   import type { PageProps } from "./$types";
 
   let { data }: PageProps = $props();
@@ -12,4 +12,4 @@
   const isActive = (href: string) => (href === currentPath ? "text-purple-700 font-bold" : "");
 </script>
 
-<Map />
+<ScheduleConference />
