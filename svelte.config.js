@@ -18,9 +18,11 @@ const config = {
       precompress: false,
       strict: true,
     }),
-
     alias: {
       "@/*": "./src/lib",
+    },
+    paths: {
+      base: "/vibe",
     },
   },
 };
