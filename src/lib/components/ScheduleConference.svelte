@@ -295,8 +295,10 @@
       kind: "single",
       start: "18:00",
       end: "",
-      title: "Social event with Roots in Tune",
+      title:
+        "<p class='font-bold'>Social event with <a class='font-normal focus:outline-0 underline hover:text-fuchsia-800 hover:decoration-3 focus:bg-fuchsia-300 focus:decoration-3 focus:text-black' href='https://www.instagram.com/ensemble_balfolk/'>Roots in Tune</a></p>",
       location: "The Pav",
+      html: true,
     },
   ];
 </script>
@@ -318,7 +320,11 @@
             </p>
           </div>
           <div class="mx-2 lg:w-100">
-            <p class="font-bold">{item.title}</p>
+            {#if item.html}
+              {@html item.title}
+            {:else}
+              <p class="font-bold">{item.title}</p>
+            {/if}
           </div>
         </div>
       {/if}
