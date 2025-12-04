@@ -84,7 +84,7 @@
     {
       kind: "session",
       start: "12:10",
-      end: "13:10",
+      end: "13:05",
       title: "Session 2: Medical genetics - Chair Corey Alwell",
       location: "Hamilton building - MacNeill theatre",
       talks: [
@@ -117,7 +117,7 @@
         },
         {
           start: "12:52",
-          end: "13:58",
+          end: "12:58",
           title:
             "Quantifying Haploinsufficiency in Tumour Suppressor Genes: a Cancer Hallmarks-Based Functional Screen",
           person: "Elle Loughran",
